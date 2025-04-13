@@ -1,0 +1,54 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://images.pexels.com/photos/29656095/pexels-photo-29656095/free-photo-of-vibrant-butterfly-resting-on-fresh-green-leaves.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav > a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 8px;
+}
+
+.banner-image {
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/9302795/pexels-photo-9302795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: top;
+}
+
+main>section {
+    height: 800px;    
+}
+
+.beranda-section {
+    font-family: system-ui;
+    font-style: italic;
+}
+
+.article-content {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+
+body {
+    background-color: azure;
+}
