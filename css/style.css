@@ -6,9 +6,6 @@
 .main-logo{
     height: 50px;
     width: 50px;
-    background-image: url(https://images.pexels.com/photos/29656095/pexels-photo-29656095/free-photo-of-vibrant-butterfly-resting-on-fresh-green-leaves.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    background-size: cover;
-    background-position: center;
     border-radius: 50%;
 }
 
