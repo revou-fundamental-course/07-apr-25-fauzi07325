@@ -6,7 +6,10 @@
 .main-logo{
     height: 50px;
     width: 50px;
+    background-image: url(../assets/sabir.png);
     border-radius: 50%;
+    background-size: contain;
+    background-position: center;
 }
 
 nav{
@@ -22,10 +25,10 @@ nav > a{
 }
 
 .banner-image {
-    height: 400px;
-    background-image: url(https://images.pexels.com/photos/9302795/pexels-photo-9302795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    height: 500px;
+    background-image: url(../assets/hallo.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 main>section {
