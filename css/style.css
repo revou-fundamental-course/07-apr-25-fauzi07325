@@ -52,3 +52,32 @@ footer {
 body {
     background-color: azure;
 }
+
+.manajemen-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foto-pembina {
+    border: 3px solid;
+    height: 100px;
+    width: 90px;
+    border-radius: 10%;
+    background-image: url(../assets/M.\ Fauzi.png);
+    background-size: cover;
+    background-position: top;
+    background-color: lightgoldenrodyellow;
+    border-color: white;
+}
+
+.foto-pengurus {
+    border: 3px solid;
+    height: 100px;
+    width: 90px;
+    border-radius: 10%;
+    background-image: url(../assets/SULAIMAN_pasfoto4x6.png);
+    background-size: cover;
+    background-position: top;
+    background-color: lightgoldenrodyellow;
+    border-color: white;
+}
