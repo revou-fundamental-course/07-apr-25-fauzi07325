@@ -48,36 +48,83 @@ footer {
     text-align: center;
 }
 
-
 body {
     background-color: azure;
 }
 
-.manajemen-section {
+.foto-manajemen-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .foto-pembina {
     border: 3px solid;
     height: 100px;
-    width: 90px;
-    border-radius: 10%;
+    width: 100px;
+    border-radius: 50%;
     background-image: url(../assets/M.\ Fauzi.png);
     background-size: cover;
     background-position: top;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(7, 70, 179);
     border-color: white;
 }
 
 .foto-pengurus {
     border: 3px solid;
     height: 100px;
-    width: 90px;
-    border-radius: 10%;
+    width: 100px;
+    border-radius: 50%;
     background-image: url(../assets/SULAIMAN_pasfoto4x6.png);
     background-size: cover;
     background-position: top;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(7, 70, 179);
+    border-color: white;
+}
+
+.foto-direktur {
+    border: 3px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url(../assets/Eti\ Mukhlesi\ Yeni.png);
+    background-size: cover;
+    background-position: top;
+    background-color: rgb(7, 70, 179);
+    border-color: white;
+}
+
+.foto-kepsek-smp {
+    border: 3px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url(../assets/Sari\ Dewi.png);
+    background-size: cover;
+    background-position: top;
+    background-color: rgb(7, 70, 179);
+    border-color: white;
+}
+
+.foto-kepsek-sd {
+    border: 3px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url(../assets/Yusnidar.png);
+    background-size: cover;
+    background-position: top;
+    background-color: rgb(7, 70, 179);
+    border-color: white;
+}
+
+.foto-kepsek-tk {
+    border: 3px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url(../assets/FITRIANI.png);
+    background-size: cover;
+    background-position: top;
+    background-color: rgb(7, 70, 179);
     border-color: white;
 }
