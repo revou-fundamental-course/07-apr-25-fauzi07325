@@ -52,9 +52,10 @@ body {
     background-color: azure;
 }
 
-.foto-manajemen-section {
-    display: flex;
-    justify-content: space-around;
+.foto-manajemen {
+    display: flex
+    ;
+        justify-content: space-around;
 }
 
 .foto-pembina {
@@ -127,4 +128,10 @@ body {
     background-position: top;
     background-color: rgb(7, 70, 179);
     border-color: white;
+}
+
+.nama-pengurus {
+    display: flex;
+    justify-content: space-around;
+    unicode-bidi: bidi-override;
 }
