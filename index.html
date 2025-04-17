@@ -105,11 +105,21 @@
         <!--Hubungi Kami Section-->
         <section id="hubungi-kami-section">
             <header>
-                <h2>Hubungi Kami</h2>            
+                <h2>Hubungi Kami</h2>
             </header>
 
-            <!--Hubungi Kami Form-->
-            <form></form>
+            <!-- Hubungi Kami Form -->
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <!-- Inputan yang wajib diisi -->
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <button type="button" onclick="validateForm()">Submit</button>
+                </div>
+            </form>
         </section>
         
     </main>
